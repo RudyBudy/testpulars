@@ -1,0 +1,43 @@
+/*
+ * The Typekit service used to deliver this font or fonts for use on websites
+ * is provided by Adobe and is subject to these Terms of Use
+ * http://www.adobe.com/products/eulas/tou_typekit. For font license
+ * information, see the list below.
+ *
+ * geom-graphic:
+ *   - http://typekit.com/eulas/00000000000000007735c3eb
+ *   - http://typekit.com/eulas/00000000000000007735c3ef
+ *   - http://typekit.com/eulas/00000000000000007735c3fb
+ *   - http://typekit.com/eulas/00000000000000007735c3fe
+ *
+ * © 2009-2024 Adobe Systems Incorporated. All Rights Reserved.
+ */
+/*{"last_published":"2024-02-19 23:12:57 UTC"}*/
+
+@import url("p.css");
+
+@font-face {
+font-family:"geom-graphic";
+src:url("l") format("woff2"),url("d-3") format("woff"),url("a-3") format("opentype");
+font-display:auto;font-style:italic;font-weight:400;font-stretch:normal;
+}
+
+@font-face {
+font-family:"geom-graphic";
+src:url("l-3") format("woff2"),url("d") format("woff"),url("a-2") format("opentype");
+font-display:auto;font-style:normal;font-weight:400;font-stretch:normal;
+}
+
+@font-face {
+font-family:"geom-graphic";
+src:url("l-1") format("woff2"),url("d-2") format("woff"),url("a-1") format("opentype");
+font-display:auto;font-style:italic;font-weight:700;font-stretch:normal;
+}
+
+@font-face {
+font-family:"geom-graphic";
+src:url("l-2") format("woff2"),url("d-1") format("woff"),url("a") format("opentype");
+font-display:auto;font-style:normal;font-weight:700;font-stretch:normal;
+}
+
+.tk-geom-graphic { font-family: "geom-graphic",sans-serif; }
